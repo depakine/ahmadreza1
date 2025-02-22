@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 
-struct mostatill
-{
+struct mostatill{
     int tool, arz,masahat, mohit;
 }f;
 
@@ -37,7 +36,7 @@ int main(){
 
     masahat_mostatill(f);
 
-    cout << "\nmasahat: " << f.masahat << endl;
+    cout << "\n masahat: " << f.masahat << endl;
     cout << "\n mohit: " << f.mohit << endl;
 
     return 0;
